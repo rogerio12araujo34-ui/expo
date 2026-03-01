@@ -106,6 +106,7 @@ module Pod
       else
         Pod::UI.puts "[Expo] ".yellow + "ReactCodegen target not found in pods project"
       end
+
     end
 
     define_method(:run_podfile_pre_install_hooks) do
